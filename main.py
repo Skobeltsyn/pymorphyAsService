@@ -26,6 +26,7 @@ async def say_hello(name: str):
     res["время"] = data.tag.tense
     res["переходность"] = data.tag.transitivity
     res["залог"] = data.tag.voice
+    res["нормальная форма"] = data.normal_form
 
 
     return res
